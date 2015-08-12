@@ -1,0 +1,41 @@
+﻿<widget 
+		xmlns="http://www.w3.org/ns/widgets" 
+		xmlns:gap="http://phonegap.com/ns/1.0" 
+		id="com.salmantech.ipamgradecalculator" 
+		version="1.0.0">
+		
+		  <name>IPAM Grade Point Calculator Premium</name>
+
+		  <description>This is the premium edition of IPAM Grade Point Calculator. It aid
+		  you in calculating your grades.</description>
+		
+	  <author href="" email="salmanorsar2009@yahoo.com">PhoneGap Team</author>
+
+	  <content src="index.html"/>
+
+  		<preference name="permissions" value="none"/>		
+		<preference name="target-device" value="universal"/>
+		<preference name="prerendered-icon" value="true"/>
+		<preference name="ios-statusbarstyle" value="black-opaque"/>
+  
+  <icon src="icon.png"/>
+  <icon src="www/res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
+  <icon src="www/res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:qualifier="mdpi"/>
+  <icon src="www/res/icon/android/icon-72-hdpi.png" gap:platform="android" gap:qualifier="hdpi"/>
+  <icon src="www/res/icon/android/icon-96-xhdpi.png" gap:platform="android" gap:qualifier="xhdpi"/>
+    
+  <icon src="www/res/icon/ios/icon-57.png" gap:platform="ios" width="57" height="57"/>
+  <icon src="www/res/icon/ios/icon-72.png" gap:platform="ios" width="72" height="72"/>
+  <icon src="www/res/icon/ios/icon-57-2x.png" gap:platform="ios" width="114" height="114"/>
+  <icon src="www/res/icon/ios/icon-72-2x.png" gap:platform="ios" width="144" height="144"/>
+  
+  <access origin="*"/>
+  
+  <platform name="android">
+    <allow-intent href="market:*"/>
+  </platform>
+  <platform name="ios">
+    <allow-intent href="itms:*"/>
+    <allow-intent href="itms-apps:*"/>
+  </platform>
+</widget>
